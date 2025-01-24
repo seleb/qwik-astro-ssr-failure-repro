@@ -1,9 +1,9 @@
-import { Counter } from './counter';
+import { InlineComponentSimple } from './InlineComponentSimple';
 
 export const Wrapper = () => {
   return (
     <div>
-      <Counter />
+      <InlineComponentSimple />
     </div>
   );
 };

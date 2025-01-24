@@ -1,4 +1,4 @@
-export const Counter = (() => {
+export const InlineComponentSimple = (() => {
   return (
     <>
       simple inline component
