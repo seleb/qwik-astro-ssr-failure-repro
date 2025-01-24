@@ -1,4 +1,5 @@
 ---
+import { InlineComponentPropsSpread } from "@components/InlineComponentPropsSpread";
 import astroLogo from "../assets/astro.svg?url";
 import qwikLogo from "../assets/qwik.svg?url";
 import { InlineComponentSimple } from "../components/InlineComponentSimple.tsx";
@@ -25,9 +26,11 @@ import Layout from "../layouts/Layout.astro";
       Thanks to <a href="https://github.com/QwikDev/astro" title="@QwikDev/astro integration">@QwikDev/astro</a>, seamlessly integrate your Qwik components into your Astro project, as shown with the counter below.
     </p>
     <InlineComponentSimple />
+    <InlineComponentPropsSpread />
     <Wrapper />
     <WrapperViaChildren>
       <InlineComponentSimple />
+      <InlineComponentPropsSpread />
     </WrapperViaChildren>
     <p class="read-the-docs">
       Click on the Qwik and Astro logos to learn more
